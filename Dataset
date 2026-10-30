@@ -1,5 +1,14 @@
-**Dataset:** DataCo SMART Supply Chain Dataset
+## Dataset
 
-**Source:** [Kaggle – DataCo SMART Supply Chain](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis)
+The dataset used in this project is the
+DataCo SMART Supply Chain Dataset.
 
-**Original Dataset:** [Mendeley Data](https://data.mendeley.com/datasets/8gx2fvg2k6/5)
+**Source:** [Kaggle Dataset](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis)
+
+**Dataset Size:** 180,519 records and 53 columns.
+
+Due to GitHub file size limitations, the original
+dataset is not included in this repository.
+
+Please download the dataset from the original source
+to reproduce the analysis.
