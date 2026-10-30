@@ -1,4 +1,3 @@
-# Supply-Chain-Analysis---Shipping-Delivery-Performance-
 # Supply Chain Analysis – Shipping & Delivery Performance
 
 ## 1. Project Overview
