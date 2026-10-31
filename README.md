@@ -1,6 +1,6 @@
-# Supply Chain Analysis – Shipping & Delivery Performance
+# 🚚 Supply Chain Analysis – Shipping & Delivery Performance
 
-## 1. Project Overview
+##  📋 Project Overview
 
 This project focuses on analyzing shipping and delivery performance using the DataCo SMART Supply Chain dataset.
 
@@ -8,7 +8,7 @@ The analysis aims to evaluate shipping operations, identify late-delivery patter
 
 The project uses Microsoft Excel for data cleaning, MySQL for data analysis, and Power BI for interactive dashboard development.
 
-## 2. Problem Statement
+## 📌 Problem Statement
 
 The company manages a large volume of customer orders across multiple geographical regions using different shipping methods. Efficient shipping and timely order fulfillment are essential for maintaining operational performance and customer satisfaction.
 
@@ -16,7 +16,7 @@ However, differences in shipping methods, geographical locations, and fulfillmen
 
 The objective of this project is to analyze historical order and shipping data to measure late shipment rates, compare actual and scheduled shipping durations, evaluate shipping-mode performance, and identify geographical patterns in delivery delays.
 
-## 3. Project Objectives
+## 🎯 Project Objectives
 
 - Analyze overall shipping and delivery performance.
 - Calculate late shipment rates.
@@ -25,7 +25,7 @@ The objective of this project is to analyze historical order and shipping data t
 - Identify geographical patterns in shipping delays.
 - Provide data-driven recommendations to improve logistics performance.
 
-## 4. Business Requirements
+## 📝 Business Requirements
 
 | ID | Business Requirement |
 |---|---|
@@ -34,7 +34,7 @@ The objective of this project is to analyze historical order and shipping data t
 | BR03 | Compare actual and scheduled shipping durations. |
 | BR04 | Analyze regional shipping performance. |
 
-## 5. Business Questions
+## ❓ Business Questions
 
 ### Overall Shipping Performance
 - What is the total number of shipments?
@@ -61,7 +61,7 @@ The objective of this project is to analyze historical order and shipping data t
 - Which markets have better shipping performance?
 - How does shipping duration vary across geographical regions?
 
-## 6. Key Performance Indicators (KPIs)
+## 📊 Key Performance Indicators (KPIs)
 
 | KPI | Description |
 |---|---|
@@ -73,7 +73,7 @@ The objective of this project is to analyze historical order and shipping data t
 | Average Scheduled Shipping Days | Average scheduled shipping duration |
 | Average Shipping Variance | Difference between actual and scheduled shipping days |
 
-## 7. Dataset Information
+## 💾 Dataset Information
 
 **Dataset:** DataCo SMART Supply Chain Dataset
 
@@ -88,13 +88,13 @@ The objective of this project is to analyze historical order and shipping data t
 
 The dataset also includes a separate description file containing column definitions.
 
-## 8. Tools & Technologies
+## 🛠️ Tools & Technologies
 
 - **Microsoft Excel:** Data inspection, cleaning and preprocessing using Power Query.
 - **MySQL:** SQL-based business analysis.
 - **Power BI:** Interactive dashboards and data visualization.
 
-## 9. Project Workflow
+## 🔄 Project Workflow
 
 1. Business Understanding
 2. Data Collection and Inspection
@@ -104,7 +104,7 @@ The dataset also includes a separate description file containing column definiti
 6. Business Insights and Recommendations
 7. Documentation and Reporting
 
-## 10. Excel – Data Cleaning
+## 🟢 Excel – Data Cleaning
 
 Microsoft Excel Power Query is used to inspect, clean and prepare the dataset before SQL analysis.
 
@@ -132,7 +132,7 @@ Microsoft Excel Power Query is used to inspect, clean and prepare the dataset be
 | Product Status | Removed because values had no variation |
 | Redundant Columns | Removed duplicate fields and retained one column from each pair |
 
-### Data Cleaning Validation
+### ✅ Data Cleaning Validation
 
 - Checked missing values and duplicate records.
 - Verified column data types and formats.
@@ -140,7 +140,7 @@ Microsoft Excel Power Query is used to inspect, clean and prepare the dataset be
 - Preserved valid financial values.
 - Prepared the cleaned dataset for SQL analysis.
 
-## 12. Project Structure
+## 📁 Project Structure
 
 ```text
 Supply-Chain-Shipping-Analysis/
