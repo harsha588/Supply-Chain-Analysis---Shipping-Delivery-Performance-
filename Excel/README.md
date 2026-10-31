@@ -1,0 +1,16 @@
+# Excel – Data Cleaning
+
+Microsoft Excel Power Query was used to clean and prepare the DataCo dataset for SQL analysis.
+
+## Cleaned Dataset
+
+[View Cleaned Dataset – Google Sheets](https://docs.google.com/spreadsheets/d/1BOck6H1RG6J1hG5ME2i8Qb3zPAouSTzj/edit?usp=drive_link&ouid=115016054409817137215&rtpof=true&sd=true)
+
+## Cleaning Activities
+
+- Inspected dataset columns and data types.
+- Checked missing values and duplicate records.
+- Removed irrelevant and redundant columns.
+- Standardized text and geographical values.
+- Corrected date and numerical data types.
+- Validated the cleaned dataset.
