@@ -1,14 +1,23 @@
-The cleaned datasets are available through the links below.
+# Excel – Data Cleaning
 
-# Dataset
+Microsoft Excel Power Query was used to clean and prepare the DataCo dataset for SQL analysis.
 
-This project uses the **DataCo SMART Supply Chain Dataset** for shipping and delivery performance analysis.
+### Files
 
-### Dataset Files
+| File | Description |
+|---|---|
+| Data_Cleaning.xlsx | Excel workbook used for data cleaning |
+| Data_Cleaning_Log.xlsx | Documents identified issues and cleaning actions |
 
-| Dataset | Description | Link |
-|---|---|---|
-| Cleaned Dataset | Cleaned dataset prepared using Excel Power Query | [Download Cleaned Dataset](https://docs.google.com/spreadsheets/d/1BOck6H1RG6J1hG5ME2i8Qb3zPAouSTzj/edit?usp=drive_link&ouid=115016054409817137215&rtpof=true&sd=true) |
-| Data Dictionary | Dataset column descriptions | [View File](https://drive.google.com/file/d/1mZh3lKsVI6zBSSytYQoIb6v7lMVspp-h/view?usp=drive_link) |
+### Cleaning Activities
 
-**Note:** The cleaned dataset is hosted externally because of its large file size.
+- Inspected dataset columns and data types.
+- Checked missing values and duplicate records.
+- Removed irrelevant and redundant columns.
+- Standardized text and geographical values.
+- Corrected date and numerical data types.
+- Validated the cleaned dataset.
+
+### Output
+
+The cleaned dataset is available in the [Dataset folder](../Dataset/README.md).
