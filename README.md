@@ -110,41 +110,35 @@ Microsoft Excel Power Query is used to inspect, clean and prepare the dataset be
 
 ### Data Cleaning Steps
 
-Data Cleaning Steps
 - Imported the CSV dataset into Power Query.
 - Created a separate working query to preserve the original data.
 - Checked missing values and duplicate records.
 - Removed irrelevant and redundant columns.
 - Standardized text values and column names.
 - Corrected date and numerical data types.
-- Reviewed numerical values and preserved valid negative values.
-- Removed the Order Zipcode column due to a high number of missing values (155,679).
-- Prepared the cleaned dataset for SQL analysis.
-Data Cleaning Summary
-Column / Field	Issue Identified	Action
-Customer Lname	8 missing values	Retained as null
-Customer Zipcode	3 missing values	Retained as null
-Order Zipcode	155,679 missing values	Removed
-Product Description	Entire column was blank	Removed
-Customer Email	Constant placeholder value	Removed
-Customer Password	Constant placeholder value	Removed
-Product Status	No variation in values	Removed
-Redundant columns	Identical values across selected column pairs	Retained one column from each pair
+- Reviewed numerical values and retained valid negative values.
+- Standardized country and geographical names where required.
+- Validated the cleaned dataset.
 
-Data Cleaning Validation
+### Data Cleaning Summary
+
+| Column / Field | Action Taken |
+|---|---|
+| Customer Lname | Retained 8 missing values |
+| Customer Zipcode | Retained 3 missing values |
+| Order Zipcode | Removed due to 155,679 missing values |
+| Product Description | Removed because all values were missing |
+| Customer Email & Password | Removed placeholder columns |
+| Product Status | Removed because values had no variation |
+| Redundant Columns | Removed duplicate fields and retained one column from each pair |
+
+### Data Cleaning Validation
+
 - Checked missing values and duplicate records.
-- Verified column names and data types.
-- Reviewed numerical values.
-- Preserved valid records and financial values.
-11. Project Status
-Current Phase: Excel Data Cleaning
-Phase	Status
-Business Understanding	Completed
-Dataset Inspection	Completed
-Excel Data Cleaning	In Progress
-SQL Analysis	Planned
-Power BI Dashboard	Planned
-Business Insights & Recommendations	Planned
+- Verified column data types and formats.
+- Reviewed standardized text and geographical values.
+- Preserved valid financial values.
+- Prepared the cleaned dataset for SQL analysis.
 
 ## 12. Project Structure
 
