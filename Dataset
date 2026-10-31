@@ -1,14 +1,13 @@
-## Dataset
+# Dataset
 
-The dataset used in this project is the
-DataCo SMART Supply Chain Dataset.
+This project uses the **DataCo SMART Supply Chain Dataset** for shipping and delivery performance analysis.
 
-**Source:** [Kaggle Dataset](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis)
+### Dataset Files
 
-**Dataset Size:** 180,519 records and 53 columns.
+| Dataset | Description | Link |
+|---|---|---|
+| Original Dataset | Raw DataCo supply chain dataset | [Download from Kaggle](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis) |
+| Cleaned Dataset | Cleaned dataset prepared using Excel Power Query | [Download Cleaned Dataset](YOUR_GOOGLE_DRIVE_LINK) |
+| Data Dictionary | Dataset column descriptions | [View File](./DescriptionDataCoSupplyChain.csv) |
 
-Due to GitHub file size limitations, the original
-dataset is not included in this repository.
-
-Please download the dataset from the original source
-to reproduce the analysis.
+**Note:** The cleaned dataset is hosted externally because of its large file size.
