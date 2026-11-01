@@ -41,7 +41,7 @@ The objective of this project is to analyze historical order and shipping data t
 - How many shipments are late?
 - What is the overall late shipment rate?
 - What percentage of shipments are on time?
-- How are shipments distributed across delivery statuses?
+- How are shipments distributed across delivery status?
 
 ### Shipping Mode Analysis
 - Which shipping mode handles the highest number of shipments?
