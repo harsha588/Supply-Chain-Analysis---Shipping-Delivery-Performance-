@@ -140,6 +140,35 @@ Microsoft Excel Power Query is used to inspect, clean and prepare the dataset be
 - Preserved valid financial values.
 - Prepared the cleaned dataset for SQL analysis.
 
+# 🔵 SQL – Shipping & Delivery Analysis
+
+MySQL was used to calculate key performance indicators (KPIs) and analyze shipping performance.
+
+## SQL Files
+
+| File | Description |
+|---|---|
+| 01_Data_Import_and_Table_Creation.sql | Creates the database and table and imports the cleaned dataset. |
+| 02_KPI_Analysis.sql | Calculates shipping KPIs and delivery status distribution. |
+
+## KPIs Analyzed
+
+- Total Shipments
+- Late Shipments
+- Late Shipment Rate
+- On-time Shipment Rate
+- Average Actual Shipping Days
+- Average Scheduled Shipping Days
+- Average Shipping Variance
+
+## SQL Concepts Used
+
+- Aggregate Functions
+- CASE WHEN
+- GROUP BY
+- Subqueries
+- DISTINCT
+
 ## 📁 Project Structure
 
 ```text
