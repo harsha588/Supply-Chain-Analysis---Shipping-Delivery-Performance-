@@ -179,6 +179,12 @@ Supply-Chain-Shipping-Analysis/
 ├── Excel
     └──README.md
 ├── SQL
+    └──01_Data_Import_and_Table_Creation.sql
+    └──02_KPI_Analysis.sql
+    └──03_Overall_Shipping_Performance.sql
+    └──04_Shipping_Mode_Analysis.sql
+    └──05_Shipping_Duration_Analysis.sql
+    └──06_Regional_Shipping_Analysis.sql
 ├── PowerBI
 ├── Images
 └── README.md
@@ -186,4 +192,3 @@ Supply-Chain-Shipping-Analysis/
 
 ---
 
-*This project is being developed as an end-to-end Data Analytics portfolio project using Excel, MySQL, and Power BI.*
