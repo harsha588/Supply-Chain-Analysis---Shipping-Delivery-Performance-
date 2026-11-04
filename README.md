@@ -52,7 +52,7 @@ The objective of this project is to analyze historical order and shipping data t
 ### Shipping Duration Analysis
 - What is the average actual shipping duration?
 - What is the average scheduled shipping duration?
-- How many days of delay occur on average?
+- What is the average difference between actual and scheduled shipping duration
 - Which orders exceed their scheduled shipping duration?
 
 ### Regional Shipping Analysis
