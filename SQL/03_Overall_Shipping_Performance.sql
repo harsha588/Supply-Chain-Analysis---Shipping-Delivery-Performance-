@@ -14,6 +14,8 @@ SELECT
 FROM data_cleaned
 WHERE `Delivery Status` = 'Late delivery';
 
+
+
 -- Late Shipment Rate (%)
 SELECT 
 	ROUND(
@@ -25,6 +27,9 @@ SELECT
 						WHEN `Delivery Status` <> 'Shipping canceled' THEN `Order Item Id`
 		END), 2) AS late_shipment_rate
 FROM data_cleaned;
+
+
+
 
 -- On-time Shipment Rate (%)
 SELECT 
@@ -41,6 +46,7 @@ ROUND(
 		END ), 2) 
 		AS on_time_shipment_rate
 FROM data_cleaned;
+
 
 
 -- Shipment Distribution by Delivery Status
