@@ -144,13 +144,6 @@ Microsoft Excel Power Query is used to inspect, clean and prepare the dataset be
 
 MySQL was used to calculate key performance indicators (KPIs) and analyze shipping performance.
 
-## SQL Files
-
-| File | Description |
-|---|---|
-| 01_Data_Import_and_Table_Creation.sql | Creates the database and table and imports the cleaned dataset. |
-| 02_KPI_Analysis.sql | Calculates shipping KPIs and delivery status distribution. |
-
 ## KPIs Analyzed
 
 - Total Shipments
