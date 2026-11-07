@@ -246,3 +246,25 @@ Supply-Chain-Shipping-Analysis/
 
 ---
 
+### 🔑 Key Business Findings
+
+The analysis of shipping and delivery performance revealed the following insights:
+
+1. **High Overall Late Shipment Rate:** 57.29% of eligible shipments were classified as late deliveries, while 42.71% were delivered on time or in advance.
+
+2. **First Class – Highest Late Shipment Rate:** First Class recorded a 100% late shipment rate, meaning all eligible First Class shipments in the dataset were classified as late deliveries.
+
+3. **Second Class – Second-Highest Late Shipment Rate:** Second Class recorded a late shipment rate of 79.83%, indicating substantial delivery delays.
+
+4. **Standard Class – Lowest Late Shipment Rate:** Standard Class recorded the lowest late shipment rate at 39.77% among the four shipping modes.
+
+5. **Shipping Mode Performance Comparison:** Same Day shipping recorded a late shipment rate of 47.93%, lower than First Class and Second Class but higher than Standard Class.
+
+### 💼👍 Business Recommendations
+
+- Investigate the operational factors contributing to the 100% late shipment rate for First Class.
+- Review Second Class delivery scheduling and logistics processes to reduce delays.
+- Examine the practices associated with Standard Class performance to identify potential improvements for other shipping modes.
+- Monitor regional and country-level delivery performance to identify areas requiring further investigation.
+- Compare actual shipping duration against scheduled duration to identify shipping modes with significant delivery-time differences.
+
