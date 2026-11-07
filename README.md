@@ -169,6 +169,58 @@ MySQL was used to calculate key performance indicators (KPIs) and analyze shippi
 - Subqueries
 - DISTINCT
 
+## 🟡 Power BI – Dashboard Development
+
+Power BI was used to create an interactive dashboard to analyze shipping and delivery performance, identify late shipment patterns, and compare shipping efficiency across different shipping modes, regions, countries, and markets.
+
+### Dashboard Development
+
+- Connected the cleaned supply chain dataset from MySQL to Power BI.
+- Created interactive KPI cards to monitor key shipping performance indicators.
+- Added slicers to enable dynamic filtering and exploration of shipping data.
+- Developed multiple visualizations to analyze delivery status, shipping modes, shipping duration, and regional performance.
+- Applied consistent formatting, colour themes, icons, and labels to improve dashboard readability.
+
+### Key Performance Indicators (KPIs)
+
+- Total Shipments
+- Late Shipments
+- Late Shipment Rate
+- On-time Shipment Rate
+- Average Actual Shipping Days
+
+### Visualizations Created
+
+| Visualization | Purpose |
+|---|---|
+| Donut Chart | Delivery Status Distribution |
+| Bar Chart | Shipments by Shipping Mode |
+| Column Chart | Late Shipment Rate by Shipping Mode |
+| Clustered Bar Chart | Actual vs Scheduled Shipping Days |
+| Combo Chart | Shipping Duration by Region |
+| Bubble Map | Late Shipments by Country |
+| Filled Map | Late Shipment Rate by Region |
+| Treemap | Shipping Performance by Market |
+
+### Interactive Filters
+
+- Shipping Mode
+- Order Region
+- Market
+- Order Date
+
+### Dashboard Features
+
+- Interactive slicers for dynamic data exploration.
+- KPI cards with custom icons and colour formatting.
+- Comparative analysis of actual and scheduled shipping durations.
+- Geographical visualization of shipment performance.
+- Consistent dashboard layout, typography, and colour palette.
+
+### Dashboard Preview
+
+![Supply Chain Shipping and Delivery Performance Dashboard](Image/supply_chain_dashboard(ss).png)
+
 ## 📁 Project Structure
 
 ```text
@@ -186,9 +238,9 @@ Supply-Chain-Shipping-Analysis/
     └──05_Shipping_Duration_Analysis.sql
     └──06_Regional_Shipping_Analysis.sql
 ├── PowerBI
-    └──
+    └──supply_chain_dashboard.pbix
 ├── Images
-    └──
+    └──supply_chain_dashboard(ss).png
 └── README.md
 ```
 
