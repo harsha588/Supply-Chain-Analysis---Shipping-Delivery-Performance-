@@ -268,3 +268,38 @@ The analysis of shipping and delivery performance revealed the following insight
 - Monitor regional and country-level delivery performance to identify areas requiring further investigation.
 - Compare actual shipping duration against scheduled duration to identify shipping modes with significant delivery-time differences.
 
+
+## 14. 📌 Project Status
+
+```markdown
+## 📌 Project Status
+
+**Completed** ✅
+
+- ✅ Data Cleaning & Preprocessing using Excel Power Query
+- ✅ SQL Analysis using MySQL
+- ✅ Shipping & Delivery Performance Analysis
+- ✅ Shipping Mode & Duration Analysis
+- ✅ Regional & Market-wise Shipping Analysis
+- ✅ Interactive Power BI Dashboard
+- ✅ Key Business Findings & Recommendations
+- ✅ GitHub Documentation
+
+```
+
+## 👤 Author
+
+**Harsha R M**
+
+Aspiring Data Analyst
+
+- SQL
+- Python
+- Power BI
+- Excel
+
+
+### Connect with Me
+
+- [LinkedIn](https://www.linkedin.com/in/harsha-r-m-645769249/)
+- [GitHub](https://github.com/)
