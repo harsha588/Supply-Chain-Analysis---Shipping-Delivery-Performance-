@@ -232,7 +232,7 @@ Supply-Chain-Shipping-Analysis/
     └──06_Regional_Shipping_Analysis.sql
 ├── PowerBI
     └──supply_chain_dashboard.pbix
-├── Images
+├── Image
     └──supply_chain_dashboard(ss).png
 └── README.md
 ```
